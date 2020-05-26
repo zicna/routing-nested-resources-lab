@@ -38,4 +38,5 @@ Remember to `rake db:seed` to set up a starter song library!
 2. Remember when filtering nested resources to query for the children through the parent, e.g., `@artist.songs.find_by(id: ...)`
 3. There's more than one way to ride the Rails. You could handle not being able to find a record by using `rescue ActiveRecord::RecordNotFound`, or you could try using `find_by(id: id)` instead of `find()` and checking to see whether the result is `nil`.
 
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/routing-nested-resources-lab' title='Nested Resource Routing Lab'>Nested Resource Routing Lab</a> on Learn.co and start learning to code for free.</p>
