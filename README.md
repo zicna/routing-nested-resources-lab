@@ -37,3 +37,4 @@ Remember to `rake db:seed` to set up a starter song library!
 1. For a refresher on the use of `flash`, see the [ActionController RailsGuide](http://guides.rubyonrails.org/action_controller_overview.html#the-flash).
 2. Remember when filtering nested resources to query for the children through the parent, e.g., `@artist.songs.find_by(id: ...)`
 3. There's more than one way to ride the Rails. You could handle not being able to find a record by using `rescue ActiveRecord::RecordNotFound`, or you could try using `find_by(id: id)` instead of `find()` and checking to see whether the result is `nil`.
+
